@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: ProductSansFont;
+    src: url('../fonts/ProductSans-Regular.ttf');
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+/* COLORING LIKE GOOGLE */
+
+
+#main-content {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+search-bar {
+    margin-bottom: 20px;
+    display: block;
+}
+
+#quotes-list {
+    width: 100%;
+}
+
+.quotes-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 7.5px;
+    box-shadow: 3px 4px 7px #ccc;
+    margin-bottom: 10px;
+}
+
